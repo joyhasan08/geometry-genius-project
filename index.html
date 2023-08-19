@@ -24,33 +24,10 @@
                 </div>
               </div>
         </nav>
-
-        <!-- card section -->
-        <section>
-            <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="./src/Polygon 1.png" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews </p>
-                  <p>If a dog chews shoes</p>
-                  <div class="flex gap-4">
-                   <!-- xs -->
-                    <input type="text" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
-                   <!-- xs -->
-                    <input type="text" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
-                  </div>
-                  <div class="card-actions">
-                    <button class="btn  w-72 bg-sky-500 ">Buy Now</button>
-                  </div>
-                </div>
-              </div>
-        </section>
-     
-        <section>
-            <div class="bg-white pt-12 sm:pt-16 lg:pt-24">
-                <!-- nav - start -->
+        <section><!-- nav-start -->
+           
+            <div class="bg-white ">
+               
                   <div class="flex justify-between gap-8 border-t bg-white px-10 py-4 text-xs sm:rounded-t-xl sm:border-transparent sm:text-sm sm:shadow-2xl">
 
                     <a href="./index.html" class="ml-4 flex flex-col items-center gap-1 text-gray-400 transition duration-100 hover:text-gray-500 active:text-gray-600 sm:ml-8">
@@ -84,8 +61,79 @@
                 <!-- nav - end -->
               </div>
         </section>
-       
+        
+        <!-- card section -->
+        <section>
+            <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
+                <figure class="px-10 pt-10">
+                  <img src="./src/Polygon 1.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 id="output-display" class="card-title">Triangle</h2>
+                  <p>Area (A) = 0.5 x b x h</p>
+                  <div class="flex gap-4">
+                   <!-- xs -->
+                    <input id="input-x" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                   <!-- xs -->
+                    <input id="input-y" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                  </div>
+                  <div class="card-actions">
+                    <button id="Calculate-btn" class="btn  w-72 bg-sky-500 ">Calculate</button>
+                  </div>
+                </div>
+              </div>
+        </section>
+                
+        <!-- card section-Rectangle  -->
+                <section>
+                  <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
+                      <figure class="px-10 pt-10">
+                        <img src="./src/Rectangle 10.png" />
+                      </figure>
+                      <div class="card-body items-center text-center">
+                        <h2 id="output-display-Rectangle" class="card-title">Rectangle</h2>
+                        <p>Area (A) = w x l</p>
+                        <div class="flex gap-4">
+                         <!-- xs -->
+                          <input id="input-x-Rectangle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                         <!-- xs -->
+                          <input id="input-y-Rectangle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                        </div>
+                        <div class="card-actions">
+                          <button id="Calculate-btn-Rectangle" class="btn  w-72 bg-sky-500 ">Calculate</button>
+                        </div>
+                      </div>
+                    </div>
+              </section>
+
+                 
+        <!-- card section Parallelogram -->
+        <section class="my-10">
+          <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img src="./src/Rectangle 9.png" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 id="output-display-Paralle" class="card-title">Parallelogram</h2>
+                <p>Area (A) = b x h</p>
+                <div class="flex gap-4">
+                 <!-- xs -->
+                  <input id="input-x-Paralle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                 <!-- xs -->
+                  <input id="input-y-Paralle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                </div>
+                <div class="card-actions">
+                  <button id="Calculate-btn-Paralle" class="btn  w-72 bg-sky-500 ">Calculate</button>
+                </div>
+              </div>
+            </div>
+      </section>
+
+
+ 
 
     </main>
+    <script src="./utilit.js"></script>
+    <script src="./click-hander.js"></script>
 </body>
 </html>
