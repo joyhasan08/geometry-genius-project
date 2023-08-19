@@ -20,7 +20,7 @@
                 </div>
                
                 <div class="navbar-end">
-                  <a href="./utiltiy-class.html" class="btn btn-active btn-accent ">Button</a>
+                  <a href="./utiltiy-class.html" class="btn  btn-accent btn-sm">Blog</a>
                 </div>
               </div>
         </nav>
@@ -62,72 +62,74 @@
               </div>
         </section>
         
-        <!-- card section -->
+        <section class=" flex flex-col md:flex-row md:pt-10">
+          <!-- card section -->
         <section>
-            <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="./src/Polygon 1.png" />
-                </figure>
-                <div class="card-body items-center text-center">
-                  <h2 id="output-display" class="card-title">Triangle</h2>
-                  <p>Area (A) = 0.5 x b x h</p>
-                  <div class="flex gap-4">
-                   <!-- xs -->
-                    <input id="input-x" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
-                   <!-- xs -->
-                    <input id="input-y" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
-                  </div>
-                  <div class="card-actions">
-                    <button id="Calculate-btn" class="btn  w-72 bg-sky-500 ">Calculate</button>
-                  </div>
-                </div>
-              </div>
-        </section>
-                
-        <!-- card section-Rectangle  -->
-                <section>
-                  <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
-                      <figure class="px-10 pt-10">
-                        <img src="./src/Rectangle 10.png" />
-                      </figure>
-                      <div class="card-body items-center text-center">
-                        <h2 id="output-display-Rectangle" class="card-title">Rectangle</h2>
-                        <p>Area (A) = w x l</p>
-                        <div class="flex gap-4">
-                         <!-- xs -->
-                          <input id="input-x-Rectangle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
-                         <!-- xs -->
-                          <input id="input-y-Rectangle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
-                        </div>
-                        <div class="card-actions">
-                          <button id="Calculate-btn-Rectangle" class="btn  w-72 bg-sky-500 ">Calculate</button>
-                        </div>
-                      </div>
-                    </div>
-              </section>
-
-                 
-        <!-- card section Parallelogram -->
-        <section class="my-10">
           <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
               <figure class="px-10 pt-10">
-                <img src="./src/Rectangle 9.png" />
+                <img src="./src/Polygon 1.png" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 id="output-display-Paralle" class="card-title">Parallelogram</h2>
-                <p>Area (A) = b x h</p>
+                <h2 id="output-display" class="card-title">Triangle</h2>
+                <p>Area (A) = 0.5 x b x h</p>
                 <div class="flex gap-4">
                  <!-- xs -->
-                  <input id="input-x-Paralle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                  <input id="input-x" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
                  <!-- xs -->
-                  <input id="input-y-Paralle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                  <input id="input-y" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
                 </div>
                 <div class="card-actions">
-                  <button id="Calculate-btn-Paralle" class="btn  w-72 bg-sky-500 ">Calculate</button>
+                  <button id="Calculate-btn" class="btn  w-72 bg-sky-500 ">Calculate</button>
                 </div>
               </div>
             </div>
       </section>
+              
+      <!-- card section-Rectangle  -->
+              <section class="mt-9">
+                <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
+                    <figure class="px-10 pt-10">
+                      <img src="./src/Rectangle 10.png" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                      <h2 id="output-display-Rectangle" class="card-title">Rectangle</h2>
+                      <p>Area (A) = w x l</p>
+                      <div class="flex gap-4">
+                       <!-- xs -->
+                        <input id="input-x-Rectangle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                       <!-- xs -->
+                        <input id="input-y-Rectangle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+                      </div>
+                      <div class="card-actions">
+                        <button id="Calculate-btn-Rectangle" class="btn  w-72 bg-sky-500 ">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+            </section>
+
+               
+      <!-- card section Parallelogram -->
+      <section class="mt-3">
+        <div class="card w-4/5 mx-auto my-4 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+              <img src="./src/Rectangle 9.png" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 id="output-display-Paralle" class="card-title">Parallelogram</h2>
+              <p>Area (A) = b x h</p>
+              <div class="flex gap-4">
+               <!-- xs -->
+                <input id="input-x-Paralle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+               <!-- xs -->
+                <input id="input-y-Paralle" type="number" placeholder="Type here" class="input input-bordered input-xs w-full max-w-xs" /><span>cm</span>
+              </div>
+              <div class="card-actions">
+                <button id="Calculate-btn-Paralle" class="btn  w-72 bg-sky-500 ">Calculate</button>
+              </div>
+            </div>
+          </div>
+    </section>
+        
 
 
  

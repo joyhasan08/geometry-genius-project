@@ -12,16 +12,13 @@ function traiangleValueById (inputX, inputY) {
      area = 0.5 * inputXvalue * inputYvalue;
      return area;
      }
-     }
-     
-
+     }    
 document.getElementById('Calculate-btn').addEventListener('click',function () {
      let result = traiangleValueById ('input-x','input-y');
      document.getElementById('output-display').innerText = result + ' Cm';
  })
 
 //  Rectangle
-
 function rectangleArea(inputA ,inputB ){
     let areaOfRectangle = 0;
     areaOfRectangle = inputA * inputB;
@@ -35,3 +32,11 @@ document.getElementById('Calculate-btn-Rectangle').addEventListener('click', fun
      document.getElementById('output-display-Rectangle').innerText = totalAreaOfrectangle;
 })
 
+//Parallelogram 
+
+document.getElementById('Calculate-btn-Paralle').addEventListener('click',function(){
+     const b = getInputValueById('input-x-Paralle');
+     const h = getInputValueById('input-y-Paralle');
+     const Ans = rectangleArea(b,h);
+     document.getElementById('output-display-Paralle').innerHTML = `${Ans} Cm<sup>2</sup> `
+})                       
